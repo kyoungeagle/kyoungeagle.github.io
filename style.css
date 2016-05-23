@@ -1,0 +1,130 @@
+* {
+	font-family: "Calibri", Verdana, sans-serif;
+}
+header {
+	color: white;
+	background-image: url("background-image.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+body { 
+	background-color: #6B3713;
+	font-family: "Calibri", Verdana, sans-serif;
+	padding: 50px;
+	font-size: 18px;
+}
+
+p {
+	color: tan;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	background-image: url("background-image.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+	color: white;
+	background-color: #ffffff;
+	text-align: center;
+	line-height: 2em;
+	font-size: 200%;
+}
+
+h2 {
+	color: black;
+	font-family: Arial, Verdana, sans-serif;
+	letter-spacing: 0.2em;
+	background-color: transparent;
+	text-align: center;
+	line-height: 2em;
+	font-size: 200%;
+	background-image: url("background-image.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h3 {
+	color: tan;
+	font-size: 150%;
+}
+
+h4 {
+	color: tan;
+	font-size: 125%;
+}
+
+h5 {
+	color: lightyellow;
+	font-size: 100%;
+
+}
+
+ul, ol, form {
+	color: tan;
+}
+
+img {
+	vertical-align: top;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div {
+    width: 400px;
+    padding: 25px;
+    border: 5px solid lightpink;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: top;
+}
+
+a:link {
+    background-color: transparent;
+    color: hotpink;
+    text-shadow: 2px 2px 3px;
+    padding: 5px 5px; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:visited {
+	background-color: yellow;
+    color: hotpink;
+    padding: 5px 5px;
+    text-align: center; 
+    text-decoration: dashed;
+    display: inline-block;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#footer{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background-color: transparent;
+	color: black;
+}
+
+.table {
+	color: lightyellow;
+	text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  #footer {
+    vertical-align: top;
+    display: inline-block;
+    font-size: .9em;
+    width: 200px;
+    }
+
+    .table {
+    	font-size: .9em;
+    	width: 200%;
+    }
+	}	
